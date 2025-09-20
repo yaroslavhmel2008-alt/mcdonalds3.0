@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+.container {
+    margin: 0 100px 0 100px;
+}
+
+header {
+    box-shadow: 0px 1px 5px rgb(0, 0, 0);
+    width: 100%;
+    position: fixed;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+}
+
+ul {
+    display: flex;
+    gap: 20px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    list-style-type: none;
+}
+
+.nav {
+    text-decoration: none;
+    color: rgb(193, 193, 69);
+    font-size: 20px;
+    -webkit-text-stroke: 1px black;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.nav:hover {
+    color: rgb(193, 193, 69);
+    -webkit-text-stroke: unset;
+}
+
+.nav:active {
+    text-decoration: underline;
+}
+
+.btn {
+    padding: 10px;
+    background: none;
+    color: rgb(193, 193, 69);
+    border: 1px solid black;
+    border-radius: 20px;
+    transition: all 0.5s;
+}
+
+.btn:hover {
+    transform: scale(1.2);
+    font-weight: bold;
+}
+
+.main-fon {
+    background-image: url(https://nzl.theukrainians.org/wp-content/uploads/2022/09/d0a315f2-6543-4454-9155-0ea4903a3775.jpeg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all 1s;
+}
+
+.main {
+    background-image: url(https://zaholovok.com.ua/sites/default/files/mac-v-uzhhorodi.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all 1s;
+}
+
+.hide {
+    display: none !important;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.index-main-info {
+    margin-top: 200px;
+    max-width: 600px;
+    min-height: 300px;
+    text-align: center;
+    color: rgb(193, 193, 69);
+    -webkit-text-stroke: 1px black;
+    backdrop-filter: blur(5px);
+}
+
+.main-title{
+    font-size: 50px;
+}
+
+.main-text {
+    font-size: 25px;
+}
+
+.menu {
+    display: flex;  
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.menu-info {
+    max-width: 600px;
+    min-height: 300px;
+    backdrop-filter: blur(10px);
+    text-align: center;
+    margin-top: 100px;
+    color: rgb(193, 193, 69);
+    -webkit-text-stroke: 1px black;
+}
+
+.menu-title {
+    width: 600px;
+    height: 50px;
+}
+
+.menu-table {
+    width: 600px;
+    height: 150px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.main-info {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.aboutMc {
+    margin: 100px 0 100px 0;
+    max-width: 600px;
+    font-size: 25px;
+    text-align: center;
+    color: rgb(193, 193, 69);
+    -webkit-text-stroke: 1px black;
+    backdrop-filter: blur(2px);
+}
+
+span {
+    font-size: 30px;
+    color: rgb(193, 193, 69);
+    -webkit-text-stroke: 1px rgb(255, 255, 255);
+}
+
+.valuesMc {
+    display: flex;
+    flex-direction: column;
+}
+
+.schedule {
+    text-align: center;
+    font-size: 20px;
+    color: rgb(193, 193, 69);
+    -webkit-text-stroke: 1px black;
+    backdrop-filter: blur(2px);
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer p {
+    margin-top: 100px;
+}
+
+
